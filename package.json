@@ -1,8 +1,12 @@
 {
   "name": "random-redirect",
   "version": "1.0.0",
+  "description": "A simple serverless function that redirects to a random URL",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
